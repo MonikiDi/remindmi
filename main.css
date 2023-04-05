@@ -1,0 +1,405 @@
+* {
+  font-family: 'Poppins', sans-serif;
+}
+
+.container {
+  position: relative;
+  width: 1240px;
+  margin: 0 auto;
+}
+
+/* fles */
+.d-flex {
+  display: flex;
+}
+
+.justify-content-start {
+  justify-content: start;
+}
+
+.justify-content-center {
+  justify-content: center;
+}
+
+.justify-content-space-between {
+  justify-content: space-between;
+}
+
+.justify-content-end {
+  justify-content: end;
+}
+
+.align-items-center {
+  align-items: center;
+}
+
+.justify-content-center {
+  justify-content: center;
+}
+
+.text-alight-center {
+  text-align: center;
+}
+
+/* btn */
+.btn-about {
+  margin-left: auto;
+  padding: 11px 40px 11px 40px;
+  border: 1px solid #2D76F9;
+  border-radius: 50px;
+  color: #2D76F9;
+}
+
+.btn-download {
+  padding: 24px 58px 24px 58px;
+  border-radius: 1500px;
+  background-color: #2D76F9;
+  font-weight: 500;
+  font-size: 18px;
+  color: #FFFFFF;
+}
+
+.btn-download-position {
+  margin-bottom: 272px;
+}
+
+.btn-download-app {
+  padding: 24px 58px 24px 58px;
+  border-radius: 1500px;
+  background-color: #FFFFFF;
+  font-weight: 500;
+  font-size: 18px;
+  color: #2D76F9;
+}
+
+.btn-about-app {
+  padding: 24px 58px 24px 58px;
+  border-radius: 1500px;
+  border: 1px solid #FFFFFF;
+  font-weight: 500;
+  font-size: 18px;
+  color: #FFFFFF;
+}
+
+.btn-download-app-position {
+  margin-right: 50px;
+}
+
+.btn-profile-left {
+  margin-right: 25px;
+}
+
+.btn-profile-right {
+  transform: rotate(180deg);
+}
+
+.btn-profile-position {
+  margin-bottom: 293px;
+}
+
+/*header*/
+.header {
+  margin: 0 auto;
+  max-width: 1600px;
+  position: relative;
+  padding-top: 25px;
+  margin-bottom: 125px;
+}
+
+.logo-img {
+  margin-right: 10px;
+}
+
+.logo-text {
+  font-family: 'Nunito', sans-serif;
+  font-weight: 700;
+  font-size: 18px;
+  color: #212121;
+}
+
+.logo-text_end {
+  font-weight: 700;
+  font-size: 18px;
+  font-family: 'Nunito', sans-serif;
+  color: #2D76F9;
+}
+
+.logo-position {
+  margin-right: 84px;
+}
+
+.nav ul li {
+  margin-right: 50px;
+  font-weight: 400;
+  font-size: 18px;
+  color: #212121;
+}
+
+.nav ul li:hover {
+  cursor: pointer;
+  font-weight: 700;
+  font-size: 18px;
+  color: #2D76F9;
+}
+
+.bg-hero {
+  position: absolute;
+  top: 0;
+  right: 0;
+  z-index: -10;
+}
+
+/* caption */
+.caption {
+  max-width: 1600px;
+  margin: 0 auto;
+}
+
+.caption-wrapper {
+  display: inline-block;
+  width: 533px;
+}
+
+.caption-h1 {
+  margin-bottom: 40px;
+  font-weight: 600;
+  font-size: 64px;
+  line-height: 85px;
+  color: #212121;
+}
+
+.caption-text {
+  margin-bottom: 50px;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 36px;
+  color: #747474;
+}
+
+/* group */
+.group {
+  margin: 0 auto;
+  max-width: 1600px;
+  margin-bottom: 270px;
+}
+
+.group-item {
+  width: 387px;
+}
+
+.group-img {
+  margin-bottom: 50px;
+  height: 100px;
+  width: 100px;
+  background-image: url(./img/rectangle.png);
+}
+
+.group-h3 {
+  margin-bottom: 30px;
+  font-weight: 700;
+  font-size: 24px;
+  color: #212121;
+}
+
+.group-text {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 36px;
+  color: #747474;
+}
+
+/* content right */
+.content-right {
+  margin: 0 auto;
+  max-width: 1600px;
+  margin-bottom: 390px;
+  position: relative;
+}
+
+.content-img-right {
+  position: absolute;
+  z-index: -10;
+  border-top-right-radius: 100px;
+  border-bottom-right-radius: 100px;
+  background-color: #EEF4FF;
+}
+
+.content-wrapper {
+  width: 497px;
+}
+
+.content-h2 {
+  margin-bottom: 50px;
+  font-weight: 600;
+  font-size: 36px;
+  line-height: 65px;
+  color: #212121;
+}
+
+.content-text {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 36px;
+  color: #747474;
+}
+
+/* content left */
+.content-left {
+  margin: 0 auto;
+  max-width: 1600px;
+  margin-bottom: 270px;
+  position: relative;
+}
+
+.content-img-left {
+  position: absolute;
+  right: 0;
+  z-index: -10;
+  border-top-left-radius: 100px;
+  border-bottom-left-radius: 100px;
+  background-color: #EEF4FF;
+}
+
+/* loading */
+.loading {
+  margin-bottom: 210px;
+}
+
+.bg-loading {
+  padding: 100px 243px 100px 243px;
+  border-radius: 50px;
+  background-image: url(./img/mask_group.png);
+  background-color: #2170FF;
+}
+
+.loading-h2 {
+  margin-bottom: 95px;
+  text-align: center;
+  font-weight: 600;
+  font-size: 36px;
+  line-height: 65px;
+  color: #FFFFFF;
+}
+
+/* profile */
+.profile {
+  position: relative;
+  margin: 0 auto;
+  max-width: 1600px;
+}
+
+.profile-bg {
+  padding-right: 47px;
+  position: absolute;
+  border-top-right-radius: 100px;
+  border-bottom-right-radius: 100px;
+  background-image: url(./img/rectangle_profile.png);
+}
+
+.profile-img {}
+
+.profile-user {
+  width: 493px;
+}
+
+.profile-h2 {
+  margin-bottom: 50px;
+  font-weight: 600;
+  font-size: 36px;
+  color: #212121;
+}
+
+.user-item {
+  margin-bottom: 49px;
+}
+
+.user-img {
+  margin-right: 31px;
+  border-radius: 100%;
+}
+
+.user-item-h3 {
+  margin-bottom: 20px;
+  font-weight: 600;
+  font-size: 27px;
+  color: #212121;
+}
+
+.user-item-text {
+  font-weight: 400;
+  font-size: 14px;
+  color: #747474;
+}
+
+.profile-user-text {
+  margin-bottom: 50px;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 36px;
+  color: #212121;
+}
+
+/* footer */
+footer {
+  margin-bottom: 137px;
+}
+
+table {
+  width: 100%;
+  table-layout: fixed;
+  border-collapse: collapse;
+}
+
+thead tr th,
+tbody tr td {
+  text-align: start;
+}
+
+thead tr th {
+  font-weight: 600;
+  font-size: 24px;
+  color: #000000;
+}
+
+tbody tr td {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 36px;
+  color: #747474;
+}
+
+.logo-footer-text {
+  text-align: center;
+  font-family: 'Nunito', sans-serif;
+  font-weight: 700;
+  font-size: 36px;
+  color: #212121;
+}
+
+.logo-footer-text-end {
+  font-family: 'Nunito', sans-serif;
+  font-weight: 700;
+  font-size: 36px;
+  color: #2D76F9;
+}
+
+.spisok li {
+  list-style: disc;
+  list-style-position: inside;
+}
+
+.spisok li::marker {
+  color: #2D76F9;
+}
+
+th img {
+  margin-right: 30px;
+}
+
+th:nth-child(1) {
+  width: 427px;
+}
+
+.footer-text {
+  width: 387px;
+}
